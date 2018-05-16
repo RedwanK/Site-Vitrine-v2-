@@ -1,0 +1,49 @@
+body {
+    position: relative;
+}
+#Accueil {padding-top:50px;height:1380px; background-color: #FEFEE2; padding-left: 0; padding-right: 0;}
+#Parcours {padding-top:20px;height:975px; background-color: #1F2020;}
+#comp {padding-top:50px;height:975px;color: #fff; background-color: #FEFEE2;padding-left: 0; padding-right: 0;}
+#ProjetsC {padding-top:50px;height:500px;color: #fff; background-color: #1F2020;}
+#ProjetsF {padding-top:50px;height:500px;color: #fff; background-color: #FEFEE2;}
+#ProjetsF h2{
+  color:black;
+}
+
+.navbar-nav{
+  font-family:aileron;
+  font-size:150%;
+}
+.navbar-brand
+{
+  font-family:aileron;
+}
+
+.modal-body{
+  font-family:primeLight;
+  font-size: 150%;
+}
+#pied
+{
+  position:inherit;
+  background-color:#1F2020;
+  width:inherit;
+}
+.text-right
+{
+  font-family: aileron;
+  font-size:150%;
+  color:white;
+}
+.text-left
+{
+  font-family: aileron;
+  font-size:150%;
+  color:white;
+}
+.displayed{
+  margin-left:auto;
+  margin-right:auto;
+  display: inline-block;
+
+}

@@ -1,0 +1,48 @@
+@font-face {
+  font-family: primeLight;
+  src:url(./Font/PrimeLight.otf);
+}
+@font-face {
+  font-family: aileron;
+  src:url(./Font/Ailerons-Typeface.otf);
+}
+.decale{
+  padding-left:12%;}
+#myCarousel{
+  margin-top:1%;
+  background-color: #E6E6E6;
+  display:block;
+}
+.logo{
+  margin-top: 1%;
+  margin-left: 13%;
+  display:inline-block;
+
+}
+.texteIntro{
+  color:black;
+  font-family: primeLight;
+  font-size:125%;
+  position:absolute;
+  display:inline-flex;
+  width: 50%;
+  margin-top: 2%;
+  text-align: center;
+}
+
+
+header
+{
+  font-family: aileron;
+  font-weight: bolder;
+  font-size: 150%;
+}
+.navbar-brand{
+  font-size:150%;
+  font-weight: bold;
+}
+
+.carou
+{
+width:100%;
+}
