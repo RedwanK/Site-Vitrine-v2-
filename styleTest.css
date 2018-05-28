@@ -4,7 +4,18 @@ body {
 #Accueil {padding-top:50px;height:100%; background-color: #FEFEE2; padding-left: 0; padding-right: 0;}
 #Parcours {padding-top:20px;height:80%; background-color: #1F2020;}
 #comp {padding-top:50px;height:80%;color: #fff; background-color: #FEFEE2;padding-left: 0; padding-right: 0;}
-#ProjetsC {padding-top:50px;height:100%;color: #fff; background-color: #1F2020;}
+
+#ProjetsC {padding-top:50px;
+  height:100%;
+  color: #fff;
+   background-color: #1F2020;
+   }
+#ProjetsC h2{
+display: block;
+justify-content: center;
+align-items: center;
+vertical-align:top;
+}
 #ProjetsF {padding-top:50px;height:40%;color: #fff; background-color: #FEFEE2;}
 #ProjetsF h2{
   color:black;
@@ -46,4 +57,23 @@ body {
   margin-right:auto;
   display: inline-block;
 
+}
+.alignement{
+  display : flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+flex-wrap: wrap;
+}
+.projet{
+  display : inline-flex;
+  background-image:url(./Image/backProj.jpg);
+  background-color: center;
+  background-size: cover;
+  width : 20%;
+  height : 500px;
+  margin-bottom: 3%;
+  justify-content: center;
+  flex-direction: row;
+  border-radius: 3px;
 }
